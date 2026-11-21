@@ -1,0 +1,35 @@
+dependencies:
+  apm:
+  - path: ./.apm/resources/mcp-fetch
+  - path: ./.apm/resources/mcp-files
+  - git: git@github.com:kiao-lp/mcp-hybridflow.git
+    ref: v1.0.4
+  - path: ./.apm/resources/mcp-markitdown
+  - path: ./.apm/resources/mcp-playwright
+  - alias: archdia
+    git: git@github.com:kiao-lp/skill-archdia.git
+    ref: 1fa104011f3ffb3dcbc11c8438758d3d3fb809cf
+  - alias: hybridflow
+    git: git@github.com:kiao-lp/skill-hybridflow.git
+    ref: v1.0.4
+  - alias: kiao-adr
+    git: git@github.com:kiao-lp/skill-kiao-adr.git
+    ref: c0a6314bcabc53ef4f1c29999231a014db1a8361
+  - alias: markdown-anchors
+    git: git@github.com:kiao-lp/skill-markdown-anchors.git
+    ref: c948219e360d93f8af3ef97f09f811e0536007be
+  - alias: markdown-metadata
+    git: git@github.com:kiao-lp/skill-markdown-metadata.git
+    ref: e4d0aaed9074a2984e622ecf3fe16a31511edfaf
+  - alias: markdown-passage-link
+    git: git@github.com:kiao-lp/skill-markdown-passage-link.git
+    ref: 9024f974a59dcd794eb00ee603a8039fe0380e86
+description: Designs, organizes, optimizes, and maintains monorepo documentation.
+  Ensures documentation stays synchronized with repository changes, remains discoverable
+  and concise, and minimizes AI context consumption while preserving accuracy, clarity,
+  and usability for both humans and AI agents.
+name: agent-repository-documentation-specialist
+targets:
+- codex
+- claude
+version: 1.0.0
