@@ -2,27 +2,27 @@ dependencies:
   apm:
   - path: ./.apm/resources/mcp-fetch
   - path: ./.apm/resources/mcp-files
-  - git: git@github.com:kiao-lp/mcp-hybridflow.git
+  - git: https://github.com/kiao-lp/mcp-hybridflow.git
     ref: v1.0.4
   - path: ./.apm/resources/mcp-markitdown
   - path: ./.apm/resources/mcp-playwright
   - alias: archdia
-    git: git@github.com:kiao-lp/skill-archdia.git
-    ref: 1fa104011f3ffb3dcbc11c8438758d3d3fb809cf
+    git: https://github.com/kiao-lp/skill-archdia.git
+    ref: v1.0.1
   - alias: hybridflow
-    git: git@github.com:kiao-lp/skill-hybridflow.git
-    ref: v1.0.4
+    git: https://github.com/kiao-lp/skill-hybridflow.git
+    ref: v1.0.5
   - alias: kiao-adr
-    git: git@github.com:kiao-lp/skill-kiao-adr.git
+    git: https://github.com/kiao-lp/skill-kiao-adr.git
     ref: c0a6314bcabc53ef4f1c29999231a014db1a8361
   - alias: markdown-anchors
-    git: git@github.com:kiao-lp/skill-markdown-anchors.git
+    git: https://github.com/kiao-lp/skill-markdown-anchors.git
     ref: c948219e360d93f8af3ef97f09f811e0536007be
   - alias: markdown-metadata
-    git: git@github.com:kiao-lp/skill-markdown-metadata.git
+    git: https://github.com/kiao-lp/skill-markdown-metadata.git
     ref: e4d0aaed9074a2984e622ecf3fe16a31511edfaf
   - alias: markdown-passage-link
-    git: git@github.com:kiao-lp/skill-markdown-passage-link.git
+    git: https://github.com/kiao-lp/skill-markdown-passage-link.git
     ref: 9024f974a59dcd794eb00ee603a8039fe0380e86
 description: Designs, organizes, optimizes, and maintains monorepo documentation.
   Ensures documentation stays synchronized with repository changes, remains discoverable
@@ -32,4 +32,4 @@ name: agent-repository-documentation-specialist
 targets:
 - codex
 - claude
-version: 1.0.0
+version: 1.0.1
