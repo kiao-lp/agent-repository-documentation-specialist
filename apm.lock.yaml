@@ -32,11 +32,11 @@ dependencies:
 - repo_url: kiao-lp/mcp-hybridflow
   name: mcp-hybridflow
   host: github.com
-  resolved_commit: 33ac8066024dd17cb9484721bb3d0f915b88c588
-  resolved_ref: v1.0.4
-  version: 1.0.4
+  resolved_commit: cb0879f92944b77ed38c722b91b7ad0234714045
+  resolved_ref: v1.0.5
+  version: 1.0.5
   package_type: apm_package
-  content_hash: sha256:639e2d0ed58e36012de2260fcbdeda7ca625a04e895a4438d383be6d10dfe964
+  content_hash: sha256:b232ad16793e3acb22d5d0bc614a230bce6db50371333a27348562439644fa90
 - repo_url: kiao-lp/skill-archdia
   alias: archdia
   name: archdia
@@ -143,9 +143,9 @@ dependencies:
   alias: kiao-adr
   name: kiao-adr
   host: github.com
-  resolved_commit: c0a6314bcabc53ef4f1c29999231a014db1a8361
-  resolved_ref: c0a6314bcabc53ef4f1c29999231a014db1a8361
-  version: 1.0.0
+  resolved_commit: 750a859b447095d5604d0b5fc53147a1a00ca469
+  resolved_ref: v1.0.1
+  version: 1.0.1
   package_type: hybrid
   deployed_files:
   - .agents/skills/kiao-adr
@@ -163,22 +163,22 @@ dependencies:
   deployed_file_hashes:
     .agents/skills/kiao-adr/.gitignore: sha256:7cca993605bfa4475dc4679755307ef2d079105f64954c091a1a23746e936528
     .agents/skills/kiao-adr/SKILL.md: sha256:83e1ea5f7b7a0cfa4d68ef60ba319305fc6a7fe6f0c0816d5208e5ebbd6fa7b6
-    .agents/skills/kiao-adr/apm.yml: sha256:eb1b5257b9ed1ec6dfbf27a465f9c9c42a269f18f269f591d251cff3a3d41f3e
+    .agents/skills/kiao-adr/apm.yml: sha256:f1db10cf9e9557eadc91f61c65f2fdcae66e11f96eafcab5ef96efa76a17f97f
     .agents/skills/kiao-adr/references/extensions.md: sha256:380849813b10490573364b01872e26562b308ead4cfd16e48ace810249d27553
     .agents/skills/kiao-adr/references/madr.md: sha256:1c3e82f3e2abc3012f91437d572c91ad3258004c3213c7cdd509e137f59775f8
     .claude/skills/kiao-adr/.gitignore: sha256:7cca993605bfa4475dc4679755307ef2d079105f64954c091a1a23746e936528
     .claude/skills/kiao-adr/SKILL.md: sha256:83e1ea5f7b7a0cfa4d68ef60ba319305fc6a7fe6f0c0816d5208e5ebbd6fa7b6
-    .claude/skills/kiao-adr/apm.yml: sha256:eb1b5257b9ed1ec6dfbf27a465f9c9c42a269f18f269f591d251cff3a3d41f3e
+    .claude/skills/kiao-adr/apm.yml: sha256:f1db10cf9e9557eadc91f61c65f2fdcae66e11f96eafcab5ef96efa76a17f97f
     .claude/skills/kiao-adr/references/extensions.md: sha256:380849813b10490573364b01872e26562b308ead4cfd16e48ace810249d27553
     .claude/skills/kiao-adr/references/madr.md: sha256:1c3e82f3e2abc3012f91437d572c91ad3258004c3213c7cdd509e137f59775f8
-  content_hash: sha256:2c47784a92613e853a74831f827ccb304f5b3e84ff8d3282fc8a33e2e82cf4df
+  content_hash: sha256:ba6e4bec915833f516393137dbe31f3a3e3496eea5cabe7ad1e27a0adcb26ef7
 - repo_url: kiao-lp/skill-markdown-anchors
   alias: markdown-anchors
   name: markdown-anchors
   host: github.com
-  resolved_commit: c948219e360d93f8af3ef97f09f811e0536007be
-  resolved_ref: c948219e360d93f8af3ef97f09f811e0536007be
-  version: 1.0.0
+  resolved_commit: c397eaf94a61946503d6738c0209621ca2ff96ab
+  resolved_ref: v1.0.1
+  version: 1.0.1
   package_type: hybrid
   deployed_files:
   - .agents/skills/markdown-anchors
@@ -192,18 +192,18 @@ dependencies:
   deployed_file_hashes:
     .agents/skills/markdown-anchors/.gitignore: sha256:7cca993605bfa4475dc4679755307ef2d079105f64954c091a1a23746e936528
     .agents/skills/markdown-anchors/SKILL.md: sha256:876acb5f5c5eec0624a433a148a3eb58e1b0504fd9aac24e7d0ba0efc4382e81
-    .agents/skills/markdown-anchors/apm.yml: sha256:bf991fdefcfb4961e9ccc0f22b3cae403cde684c989b3a7330dfacf595c3a818
+    .agents/skills/markdown-anchors/apm.yml: sha256:15fc0696d9aee0a2ca21af076b38baefeba7dd4a3b6f0a22245bbf172a80af52
     .claude/skills/markdown-anchors/.gitignore: sha256:7cca993605bfa4475dc4679755307ef2d079105f64954c091a1a23746e936528
     .claude/skills/markdown-anchors/SKILL.md: sha256:876acb5f5c5eec0624a433a148a3eb58e1b0504fd9aac24e7d0ba0efc4382e81
-    .claude/skills/markdown-anchors/apm.yml: sha256:bf991fdefcfb4961e9ccc0f22b3cae403cde684c989b3a7330dfacf595c3a818
-  content_hash: sha256:c5ee889ccc4cbd030028d9b4aa64d671b6f40726e03326be71800083ad40093a
+    .claude/skills/markdown-anchors/apm.yml: sha256:15fc0696d9aee0a2ca21af076b38baefeba7dd4a3b6f0a22245bbf172a80af52
+  content_hash: sha256:108a3a767cab46f7aae82495c53bcc5bedbb4fa768493b8833c1d7295fea8da8
 - repo_url: kiao-lp/skill-markdown-metadata
   alias: markdown-metadata
   name: markdown-metadata
   host: github.com
-  resolved_commit: e4d0aaed9074a2984e622ecf3fe16a31511edfaf
-  resolved_ref: e4d0aaed9074a2984e622ecf3fe16a31511edfaf
-  version: 1.0.0
+  resolved_commit: ad22d19d2060b1d0a0f818fee02dacc3e447e234
+  resolved_ref: v1.0.1
+  version: 1.0.1
   package_type: hybrid
   deployed_files:
   - .agents/skills/markdown-metadata
@@ -217,18 +217,18 @@ dependencies:
   deployed_file_hashes:
     .agents/skills/markdown-metadata/.gitignore: sha256:7cca993605bfa4475dc4679755307ef2d079105f64954c091a1a23746e936528
     .agents/skills/markdown-metadata/SKILL.md: sha256:a759f4f0b178b3e3faca2d347d9a61d70104a3f9a02bba191ddc9947904f49ba
-    .agents/skills/markdown-metadata/apm.yml: sha256:028fdda51a1abc570706060f0e4460c28d7d1b9c5f81ebd46641412b305b57d5
+    .agents/skills/markdown-metadata/apm.yml: sha256:24fcd8699a46a3891bc85af9b60036f5e87f304b71af27e683a8ade3a8182ac6
     .claude/skills/markdown-metadata/.gitignore: sha256:7cca993605bfa4475dc4679755307ef2d079105f64954c091a1a23746e936528
     .claude/skills/markdown-metadata/SKILL.md: sha256:a759f4f0b178b3e3faca2d347d9a61d70104a3f9a02bba191ddc9947904f49ba
-    .claude/skills/markdown-metadata/apm.yml: sha256:028fdda51a1abc570706060f0e4460c28d7d1b9c5f81ebd46641412b305b57d5
-  content_hash: sha256:2b5d2892b3341ad71629a5ecedf9b779368daee19487fe91cb1affb39ddec833
+    .claude/skills/markdown-metadata/apm.yml: sha256:24fcd8699a46a3891bc85af9b60036f5e87f304b71af27e683a8ade3a8182ac6
+  content_hash: sha256:ee32366b784ece5ec7016e69e772e110c68a4b9ba1a570aeb93dfdfa2cd22a7f
 - repo_url: kiao-lp/skill-markdown-passage-link
   alias: markdown-passage-link
   name: markdown-passage-link
   host: github.com
-  resolved_commit: 9024f974a59dcd794eb00ee603a8039fe0380e86
-  resolved_ref: 9024f974a59dcd794eb00ee603a8039fe0380e86
-  version: 1.0.0
+  resolved_commit: 18e21c82b5c0230bcf2e41c6534f6c76b3e1a2b9
+  resolved_ref: v1.0.1
+  version: 1.0.1
   package_type: hybrid
   deployed_files:
   - .agents/skills/markdown-passage-link
@@ -242,11 +242,11 @@ dependencies:
   deployed_file_hashes:
     .agents/skills/markdown-passage-link/.gitignore: sha256:7cca993605bfa4475dc4679755307ef2d079105f64954c091a1a23746e936528
     .agents/skills/markdown-passage-link/SKILL.md: sha256:6fb63aace68354d6bc49202cd6b65242e6f5adbe8ed4a18ba06f6d78ad866ce1
-    .agents/skills/markdown-passage-link/apm.yml: sha256:52eaa9d8d90470dfd9462cbdde3d295c8ecbf55036c3a6cac1bdf157329fda21
+    .agents/skills/markdown-passage-link/apm.yml: sha256:6d71e1c119f07c33bd828133e94f6a2065e0093cfa3e69932ff95afaa6a15df4
     .claude/skills/markdown-passage-link/.gitignore: sha256:7cca993605bfa4475dc4679755307ef2d079105f64954c091a1a23746e936528
     .claude/skills/markdown-passage-link/SKILL.md: sha256:6fb63aace68354d6bc49202cd6b65242e6f5adbe8ed4a18ba06f6d78ad866ce1
-    .claude/skills/markdown-passage-link/apm.yml: sha256:52eaa9d8d90470dfd9462cbdde3d295c8ecbf55036c3a6cac1bdf157329fda21
-  content_hash: sha256:886548b93745ec43dce282db634e5ae7f4a7d814141be7de2818222974b35429
+    .claude/skills/markdown-passage-link/apm.yml: sha256:6d71e1c119f07c33bd828133e94f6a2065e0093cfa3e69932ff95afaa6a15df4
+  content_hash: sha256:96b32e85826e71a4cb68453952306f73822fb220fb01adf495eed7243441f819
 deployments:
 - kind: project-relative
   target: claude
@@ -481,7 +481,7 @@ deployments:
   owners:
   - kiao-lp/skill-kiao-adr
   active_owner: kiao-lp/skill-kiao-adr
-  content_hash: sha256:eb1b5257b9ed1ec6dfbf27a465f9c9c42a269f18f269f591d251cff3a3d41f3e
+  content_hash: sha256:f1db10cf9e9557eadc91f61c65f2fdcae66e11f96eafcab5ef96efa76a17f97f
 - kind: project-relative
   target: claude
   value: .claude/skills/kiao-adr/references/extensions.md
@@ -535,7 +535,7 @@ deployments:
   owners:
   - kiao-lp/skill-markdown-anchors
   active_owner: kiao-lp/skill-markdown-anchors
-  content_hash: sha256:bf991fdefcfb4961e9ccc0f22b3cae403cde684c989b3a7330dfacf595c3a818
+  content_hash: sha256:15fc0696d9aee0a2ca21af076b38baefeba7dd4a3b6f0a22245bbf172a80af52
 - kind: project-relative
   target: claude
   value: .claude/skills/markdown-metadata
@@ -571,7 +571,7 @@ deployments:
   owners:
   - kiao-lp/skill-markdown-metadata
   active_owner: kiao-lp/skill-markdown-metadata
-  content_hash: sha256:028fdda51a1abc570706060f0e4460c28d7d1b9c5f81ebd46641412b305b57d5
+  content_hash: sha256:24fcd8699a46a3891bc85af9b60036f5e87f304b71af27e683a8ade3a8182ac6
 - kind: project-relative
   target: claude
   value: .claude/skills/markdown-passage-link
@@ -607,7 +607,7 @@ deployments:
   owners:
   - kiao-lp/skill-markdown-passage-link
   active_owner: kiao-lp/skill-markdown-passage-link
-  content_hash: sha256:52eaa9d8d90470dfd9462cbdde3d295c8ecbf55036c3a6cac1bdf157329fda21
+  content_hash: sha256:6d71e1c119f07c33bd828133e94f6a2065e0093cfa3e69932ff95afaa6a15df4
 - kind: project-relative
   target: codex
   value: .agents/skills/archdia
@@ -832,7 +832,7 @@ deployments:
   owners:
   - kiao-lp/skill-kiao-adr
   active_owner: kiao-lp/skill-kiao-adr
-  content_hash: sha256:eb1b5257b9ed1ec6dfbf27a465f9c9c42a269f18f269f591d251cff3a3d41f3e
+  content_hash: sha256:f1db10cf9e9557eadc91f61c65f2fdcae66e11f96eafcab5ef96efa76a17f97f
 - kind: project-relative
   target: codex
   value: .agents/skills/kiao-adr/references/extensions.md
@@ -886,7 +886,7 @@ deployments:
   owners:
   - kiao-lp/skill-markdown-anchors
   active_owner: kiao-lp/skill-markdown-anchors
-  content_hash: sha256:bf991fdefcfb4961e9ccc0f22b3cae403cde684c989b3a7330dfacf595c3a818
+  content_hash: sha256:15fc0696d9aee0a2ca21af076b38baefeba7dd4a3b6f0a22245bbf172a80af52
 - kind: project-relative
   target: codex
   value: .agents/skills/markdown-metadata
@@ -922,7 +922,7 @@ deployments:
   owners:
   - kiao-lp/skill-markdown-metadata
   active_owner: kiao-lp/skill-markdown-metadata
-  content_hash: sha256:028fdda51a1abc570706060f0e4460c28d7d1b9c5f81ebd46641412b305b57d5
+  content_hash: sha256:24fcd8699a46a3891bc85af9b60036f5e87f304b71af27e683a8ade3a8182ac6
 - kind: project-relative
   target: codex
   value: .agents/skills/markdown-passage-link
@@ -958,7 +958,7 @@ deployments:
   owners:
   - kiao-lp/skill-markdown-passage-link
   active_owner: kiao-lp/skill-markdown-passage-link
-  content_hash: sha256:52eaa9d8d90470dfd9462cbdde3d295c8ecbf55036c3a6cac1bdf157329fda21
+  content_hash: sha256:6d71e1c119f07c33bd828133e94f6a2065e0093cfa3e69932ff95afaa6a15df4
 - kind: project-relative
   target: codex
   value: .codex/agents/agent-repository-documentation-specialist.toml
