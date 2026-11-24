@@ -24,6 +24,7 @@ dependencies:
   - alias: markdown-passage-link
     git: https://github.com/kiao-lp/skill-markdown-passage-link.git
     ref: v1.0.1
+  - path: ./.apm/resources/repository-documentation-guidance
 description: Designs, organizes, optimizes, and maintains monorepo documentation.
   Ensures documentation stays synchronized with repository changes, remains discoverable
   and concise, and minimizes AI context consumption while preserving accuracy, clarity,
@@ -32,4 +33,4 @@ name: agent-repository-documentation-specialist
 targets:
 - codex
 - claude
-version: 1.0.2
+version: 1.1.0

@@ -29,6 +29,25 @@ dependencies:
   source: local
   local_path: ./.apm/resources/mcp-playwright
   content_hash: sha256:80cdcaad438d82ace60967c5a2bee17c1939c61bb07a8d2c401efb1265c603d0
+- repo_url: _local/repository-documentation-guidance
+  name: repository-documentation-guidance
+  version: 1.0.0
+  package_type: apm_package
+  deployed_files:
+  - .agents/skills/repository-documentation-guidance
+  - .agents/skills/repository-documentation-guidance/SKILL.md
+  - .claude/rules/documentation-presentation.md
+  - .claude/rules/repository-documentation.md
+  - .claude/skills/repository-documentation-guidance
+  - .claude/skills/repository-documentation-guidance/SKILL.md
+  deployed_file_hashes:
+    .agents/skills/repository-documentation-guidance/SKILL.md: sha256:3747d19a8173d51843caa1ae7bd18afbd5d6a09fe206d3abeb2323da7a762ef5
+    .claude/rules/documentation-presentation.md: sha256:7d41cf0b749f9ec336430516399b711031addf815e3264d8598a840dba7dde5d
+    .claude/rules/repository-documentation.md: sha256:a385ee9844704a9c49e4d09ab0ca1c765173b3a8f88846d2cd36c024a9c59327
+    .claude/skills/repository-documentation-guidance/SKILL.md: sha256:3747d19a8173d51843caa1ae7bd18afbd5d6a09fe206d3abeb2323da7a762ef5
+  source: local
+  local_path: ./.apm/resources/repository-documentation-guidance
+  content_hash: sha256:a2b79a11478a199cdb341caea3ef7e35ef18b9ea86735ed533a41470f555bc09
 - repo_url: kiao-lp/mcp-hybridflow
   name: mcp-hybridflow
   host: github.com
@@ -256,7 +275,25 @@ deployments:
   owners:
   - .
   active_owner: .
-  content_hash: sha256:ae7eac4ae6641807e643eecd8b11f699f3d57fcbac8dd0f2b120e4551d05e46b
+  content_hash: sha256:7815b62f2f9038ca110a40254c20816e25bf6109976fd3083251f597edc2fc49
+- kind: project-relative
+  target: claude
+  value: .claude/rules/documentation-presentation.md
+  runtime: null
+  scope: project
+  owners:
+  - ./.apm/resources/repository-documentation-guidance
+  active_owner: ./.apm/resources/repository-documentation-guidance
+  content_hash: sha256:7d41cf0b749f9ec336430516399b711031addf815e3264d8598a840dba7dde5d
+- kind: project-relative
+  target: claude
+  value: .claude/rules/repository-documentation.md
+  runtime: null
+  scope: project
+  owners:
+  - ./.apm/resources/repository-documentation-guidance
+  active_owner: ./.apm/resources/repository-documentation-guidance
+  content_hash: sha256:a385ee9844704a9c49e4d09ab0ca1c765173b3a8f88846d2cd36c024a9c59327
 - kind: project-relative
   target: claude
   value: .claude/skills/archdia
@@ -608,6 +645,24 @@ deployments:
   - kiao-lp/skill-markdown-passage-link
   active_owner: kiao-lp/skill-markdown-passage-link
   content_hash: sha256:6d71e1c119f07c33bd828133e94f6a2065e0093cfa3e69932ff95afaa6a15df4
+- kind: project-relative
+  target: claude
+  value: .claude/skills/repository-documentation-guidance
+  runtime: null
+  scope: project
+  owners:
+  - ./.apm/resources/repository-documentation-guidance
+  active_owner: ./.apm/resources/repository-documentation-guidance
+  content_hash: null
+- kind: project-relative
+  target: claude
+  value: .claude/skills/repository-documentation-guidance/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - ./.apm/resources/repository-documentation-guidance
+  active_owner: ./.apm/resources/repository-documentation-guidance
+  content_hash: sha256:3747d19a8173d51843caa1ae7bd18afbd5d6a09fe206d3abeb2323da7a762ef5
 - kind: project-relative
   target: codex
   value: .agents/skills/archdia
@@ -961,13 +1016,31 @@ deployments:
   content_hash: sha256:6d71e1c119f07c33bd828133e94f6a2065e0093cfa3e69932ff95afaa6a15df4
 - kind: project-relative
   target: codex
+  value: .agents/skills/repository-documentation-guidance
+  runtime: null
+  scope: project
+  owners:
+  - ./.apm/resources/repository-documentation-guidance
+  active_owner: ./.apm/resources/repository-documentation-guidance
+  content_hash: null
+- kind: project-relative
+  target: codex
+  value: .agents/skills/repository-documentation-guidance/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - ./.apm/resources/repository-documentation-guidance
+  active_owner: ./.apm/resources/repository-documentation-guidance
+  content_hash: sha256:3747d19a8173d51843caa1ae7bd18afbd5d6a09fe206d3abeb2323da7a762ef5
+- kind: project-relative
+  target: codex
   value: .codex/agents/agent-repository-documentation-specialist.toml
   runtime: null
   scope: project
   owners:
   - .
   active_owner: .
-  content_hash: sha256:923565c8b110be55cd9b7a264f5b81b196f96704ce4ab7402e17f9957c80a295
+  content_hash: sha256:0e60b93e006925636311905ac261c871accb0b94d6e5e602076305c5e95cdeb3
 - kind: uri
   target: mcp
   value: fetch
@@ -1130,5 +1203,5 @@ local_deployed_files:
 - .claude/agents/agent-repository-documentation-specialist.md
 - .codex/agents/agent-repository-documentation-specialist.toml
 local_deployed_file_hashes:
-  .claude/agents/agent-repository-documentation-specialist.md: sha256:ae7eac4ae6641807e643eecd8b11f699f3d57fcbac8dd0f2b120e4551d05e46b
-  .codex/agents/agent-repository-documentation-specialist.toml: sha256:923565c8b110be55cd9b7a264f5b81b196f96704ce4ab7402e17f9957c80a295
+  .claude/agents/agent-repository-documentation-specialist.md: sha256:7815b62f2f9038ca110a40254c20816e25bf6109976fd3083251f597edc2fc49
+  .codex/agents/agent-repository-documentation-specialist.toml: sha256:0e60b93e006925636311905ac261c871accb0b94d6e5e602076305c5e95cdeb3

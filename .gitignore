@@ -36,6 +36,7 @@ dist/
 /.agents/skills/markdown-passage-link/.gitignore
 /.agents/skills/markdown-passage-link/SKILL.md
 /.agents/skills/markdown-passage-link/apm.yml
+/.agents/skills/repository-documentation-guidance/SKILL.md
 /.claude/skills/archdia/.gitignore
 /.claude/skills/archdia/SKILL.md
 /.claude/skills/archdia/apm.yml
@@ -69,4 +70,5 @@ dist/
 /.claude/skills/markdown-passage-link/.gitignore
 /.claude/skills/markdown-passage-link/SKILL.md
 /.claude/skills/markdown-passage-link/apm.yml
+/.claude/skills/repository-documentation-guidance/SKILL.md
 # End Kiao APM skill projection paths
