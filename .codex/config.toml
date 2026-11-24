@@ -1,6 +1,6 @@
 [mcp_servers.fetch]
 command = "uvx"
-args = ["--with", "mcp<2", "--from", "mcp-server-fetch==2026.8.18", "mcp-server-fetch"]
+args = ["--from", "mcp-server-fetch==2026.11.18", "mcp-server-fetch"]
 
 [mcp_servers.fetch.env]
 
@@ -12,13 +12,13 @@ args = []
 
 [mcp_servers.markitdown]
 command = "uvx"
-args = ["--from", "markitdown-mcp==0.0.1a4", "markitdown-mcp"]
+args = ["--with", "azure-ai-contentunderstanding>=1.2.0b1", "--from", "markitdown-mcp==0.0.1a8", "markitdown-mcp"]
 
 [mcp_servers.markitdown.env]
 
 [mcp_servers.playwright]
 command = "npx"
-args = ["--yes", "@playwright/mcp@0.0.79", "--headless", "--isolated", "--browser", "chromium"]
+args = ["--yes", "@playwright/mcp@0.0.86", "--headless", "--isolated", "--browser", "chromium"]
 
 [mcp_servers.playwright.env]
 

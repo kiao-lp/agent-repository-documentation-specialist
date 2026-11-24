@@ -2,19 +2,15 @@
   "resources": [
     {
       "name": "mcp-fetch",
-      "commit": "84bce795105aed58decdaae297bf3ed550c8a1d2"
-    },
-    {
-      "name": "mcp-files",
-      "commit": "41ba06152a0eab4d88dd8b76a28e117356acbfab"
+      "commit": "cfaa2cc5df9c0911dd5a4ef282448dc22e9df252"
     },
     {
       "name": "mcp-markitdown",
-      "commit": "0e001ca4c9bed786fc869a00f0270745e00419db"
+      "commit": "559234ef67d832f590e0bbcb4fecee178e612ad1"
     },
     {
       "name": "mcp-playwright",
-      "commit": "c2eb054f84253c2768ea17016d9a0ba35197d2dc"
+      "commit": "483aba17488555375071704af845b9ad32705f42"
     }
   ]
 }
