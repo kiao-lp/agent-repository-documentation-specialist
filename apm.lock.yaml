@@ -44,19 +44,19 @@ dependencies:
 - repo_url: kiao-lp/mcp-files
   name: mcp-files
   host: github.com
-  resolved_commit: a47535f2e6ee057f30c641a363fccfd62a92512a
-  resolved_ref: a47535f2e6ee057f30c641a363fccfd62a92512a
-  version: 1.0.0
+  resolved_commit: c95c2fb81656ae71de099866417f47ad7d9bfb47
+  resolved_ref: v1.0.1
+  version: 1.0.1
   package_type: apm_package
-  content_hash: sha256:efcd9448ad21a2c7ac7aa64c0a9ca707a1535841cc47d3624dda389cc04f1f6c
+  content_hash: sha256:7d57779a62f04726d3f8b6138051699cb2c895d7c021ab3cb67d0b42add63053
 - repo_url: kiao-lp/mcp-hybridflow
   name: mcp-hybridflow
   host: github.com
-  resolved_commit: f2a36b5f8795b48993708e9d87f42f8156cf5ae9
-  resolved_ref: f2a36b5f8795b48993708e9d87f42f8156cf5ae9
-  version: 1.0.5
+  resolved_commit: 577dfb5cb9b3986d24dc17de3e8f3ca799a0efed
+  resolved_ref: v2.0.0
+  version: 2.0.0
   package_type: apm_package
-  content_hash: sha256:ff2afe27105e5a8a7eeb7657823a6327b92e4e40222d6b960c490bae42b618d7
+  content_hash: sha256:eb3ac6b9dee427221a199e832062bdd4f674bc910e9097fe066aa67d05e8d263
 - repo_url: kiao-lp/skill-archdia
   alias: archdia
   name: archdia
@@ -86,19 +86,19 @@ dependencies:
   alias: hybridflow
   name: hybridflow
   host: github.com
-  resolved_commit: 356da48902e95f2d9150e2ace6db54fe680e87b7
-  resolved_ref: v1.0.6
-  version: 1.0.6
+  resolved_commit: 984818ace1141d78aa355112ff4396c20e1ed671
+  resolved_ref: v1.0.7
+  version: 1.0.7
   package_type: hybrid
   deployed_files:
   - .agents/skills/hybridflow
   - .agents/skills/hybridflow/.gitignore
   - .agents/skills/hybridflow/SKILL.md
   - .agents/skills/hybridflow/apm.yml
+  - .agents/skills/hybridflow/kiao.lock.json
   - .agents/skills/hybridflow/references/api-curl.md
   - .agents/skills/hybridflow/references/cards.md
   - .agents/skills/hybridflow/references/chains.md
-  - .agents/skills/hybridflow/references/classes.md
   - .agents/skills/hybridflow/references/execution/agents.md
   - .agents/skills/hybridflow/references/execution/runners.md
   - .agents/skills/hybridflow/references/operations.md
@@ -112,10 +112,10 @@ dependencies:
   - .claude/skills/hybridflow/.gitignore
   - .claude/skills/hybridflow/SKILL.md
   - .claude/skills/hybridflow/apm.yml
+  - .claude/skills/hybridflow/kiao.lock.json
   - .claude/skills/hybridflow/references/api-curl.md
   - .claude/skills/hybridflow/references/cards.md
   - .claude/skills/hybridflow/references/chains.md
-  - .claude/skills/hybridflow/references/classes.md
   - .claude/skills/hybridflow/references/execution/agents.md
   - .claude/skills/hybridflow/references/execution/runners.md
   - .claude/skills/hybridflow/references/operations.md
@@ -127,38 +127,38 @@ dependencies:
   - .claude/skills/hybridflow/references/structured-data.md
   deployed_file_hashes:
     .agents/skills/hybridflow/.gitignore: sha256:7cca993605bfa4475dc4679755307ef2d079105f64954c091a1a23746e936528
-    .agents/skills/hybridflow/SKILL.md: sha256:b63be9d6b9754617623c0282b26642ff567a3855a55001218f72253c9bb62f8e
-    .agents/skills/hybridflow/apm.yml: sha256:5bb0e3fffd941e54655189d6a2c0e0e6690cdf226e27518ca12d7431ca5db111
-    .agents/skills/hybridflow/references/api-curl.md: sha256:865e29c888e9b0057640fb4e11e11435194a64c18c9283ac33ebb02081241ee8
-    .agents/skills/hybridflow/references/cards.md: sha256:78a0ee8785b22864fbe2b7cee7b4c4e862007bd7dd5af056e7a7282e2426fe05
-    .agents/skills/hybridflow/references/chains.md: sha256:e7beafce5b5c06431af38f5fc22709a646478d79f4dbb545872308d159bfc206
-    .agents/skills/hybridflow/references/classes.md: sha256:8c0748aacd337c63aa98fe0f5b95b441d463d0f3a1e10e8bc8868bcf6790bcbf
-    .agents/skills/hybridflow/references/execution/agents.md: sha256:f888aec5da9076889d90556f47e9a19d8f7d198ff3d783c404904f7781564523
+    .agents/skills/hybridflow/SKILL.md: sha256:edacfc5ee8d266acaedf6667d89cb7c97e560fd88bf782ce7eb79d02ec5b3371
+    .agents/skills/hybridflow/apm.yml: sha256:90af023e38a92fb2da074279b0a705b324b9b490380458327383adc33e0c7788
+    .agents/skills/hybridflow/kiao.lock.json: sha256:3544ceb6d9770ba4a72e429a8a73eec3313c482365c4b8c35784f3709e4a0571
+    .agents/skills/hybridflow/references/api-curl.md: sha256:1ed0f7a3c49c10268533b63eb4c191f2197cd6283f0243371f9c4c92e303b781
+    .agents/skills/hybridflow/references/cards.md: sha256:ab2e9e87abaff65596bca5914ebc22b0f1702835acf46f128f3ccf32956a04ca
+    .agents/skills/hybridflow/references/chains.md: sha256:363941edf4189907b3de21aa89365c3dd836e1cd55fdcd5b6a65cf0d9a8c805e
+    .agents/skills/hybridflow/references/execution/agents.md: sha256:3a24ea424e0766e3e520f8ac5e8e5de82114d085d88dc549111aac15ef75ba44
     .agents/skills/hybridflow/references/execution/runners.md: sha256:2b27270ee8d25f4882f1a52dee91ed0ca87073ad0c2adcba0fb5f6849f116f94
-    .agents/skills/hybridflow/references/operations.md: sha256:7ac22a249e7ffff9d0f3b3f56bc63d8bceecffbda37eabcaf8640dafbcea267f
-    .agents/skills/hybridflow/references/operations/lifecycle.md: sha256:e09f8b2da43ee8ce0f4c473ff950c85129291eacde8c65e493e41bcc9ca18ff7
+    .agents/skills/hybridflow/references/operations.md: sha256:1501f37496b4c16d4b5834134b92ac6702f35a775534785285fe5ffe97eb01a1
+    .agents/skills/hybridflow/references/operations/lifecycle.md: sha256:0bebc313115fa67421dc18f5c2ae649639048f695d2d12956623c4032c64c5b7
     .agents/skills/hybridflow/references/operations/observation.md: sha256:18b1a53f0c375c4736dfc82da20009fd1dd925a9f0655b5945da78ef5fb2fe72
-    .agents/skills/hybridflow/references/reuse/copying.md: sha256:4297ccfeb2c0d1e321bfc58fdeda090d121645cbb0db86246822bdf6eed80426
-    .agents/skills/hybridflow/references/reuse/templates.md: sha256:ab906f8ed22dd710322b4d522e777c0cef29c177696fc404a3862796b3359bf8
-    .agents/skills/hybridflow/references/reuse/workflows.md: sha256:fc86917a4cc17698d7cc159135cbde36f254f7114eef31e6641d9f28bb90d843
-    .agents/skills/hybridflow/references/structured-data.md: sha256:7a130fcf8b4484827bc27a0e8aa736f70a0e3636ad4bcce1f2024edffda202c0
+    .agents/skills/hybridflow/references/reuse/copying.md: sha256:3a8c273096a91753f8c39d7749fac4fce7e5ca560f2bdf1464b2262588ebcf6c
+    .agents/skills/hybridflow/references/reuse/templates.md: sha256:288bf446922ab008904742442502dbc9ea450b366dfb308d0812cac7589305f2
+    .agents/skills/hybridflow/references/reuse/workflows.md: sha256:7c658044d875ece3a3c3c1654a4aef1c637f4e96da244446e2b2bd6a99250984
+    .agents/skills/hybridflow/references/structured-data.md: sha256:5efe9359d2011ebdf1a977bac60dc64bee83cbc68578aef7f9b1ed852c587b2f
     .claude/skills/hybridflow/.gitignore: sha256:7cca993605bfa4475dc4679755307ef2d079105f64954c091a1a23746e936528
-    .claude/skills/hybridflow/SKILL.md: sha256:b63be9d6b9754617623c0282b26642ff567a3855a55001218f72253c9bb62f8e
-    .claude/skills/hybridflow/apm.yml: sha256:5bb0e3fffd941e54655189d6a2c0e0e6690cdf226e27518ca12d7431ca5db111
-    .claude/skills/hybridflow/references/api-curl.md: sha256:865e29c888e9b0057640fb4e11e11435194a64c18c9283ac33ebb02081241ee8
-    .claude/skills/hybridflow/references/cards.md: sha256:78a0ee8785b22864fbe2b7cee7b4c4e862007bd7dd5af056e7a7282e2426fe05
-    .claude/skills/hybridflow/references/chains.md: sha256:e7beafce5b5c06431af38f5fc22709a646478d79f4dbb545872308d159bfc206
-    .claude/skills/hybridflow/references/classes.md: sha256:8c0748aacd337c63aa98fe0f5b95b441d463d0f3a1e10e8bc8868bcf6790bcbf
-    .claude/skills/hybridflow/references/execution/agents.md: sha256:f888aec5da9076889d90556f47e9a19d8f7d198ff3d783c404904f7781564523
+    .claude/skills/hybridflow/SKILL.md: sha256:edacfc5ee8d266acaedf6667d89cb7c97e560fd88bf782ce7eb79d02ec5b3371
+    .claude/skills/hybridflow/apm.yml: sha256:90af023e38a92fb2da074279b0a705b324b9b490380458327383adc33e0c7788
+    .claude/skills/hybridflow/kiao.lock.json: sha256:3544ceb6d9770ba4a72e429a8a73eec3313c482365c4b8c35784f3709e4a0571
+    .claude/skills/hybridflow/references/api-curl.md: sha256:1ed0f7a3c49c10268533b63eb4c191f2197cd6283f0243371f9c4c92e303b781
+    .claude/skills/hybridflow/references/cards.md: sha256:ab2e9e87abaff65596bca5914ebc22b0f1702835acf46f128f3ccf32956a04ca
+    .claude/skills/hybridflow/references/chains.md: sha256:363941edf4189907b3de21aa89365c3dd836e1cd55fdcd5b6a65cf0d9a8c805e
+    .claude/skills/hybridflow/references/execution/agents.md: sha256:3a24ea424e0766e3e520f8ac5e8e5de82114d085d88dc549111aac15ef75ba44
     .claude/skills/hybridflow/references/execution/runners.md: sha256:2b27270ee8d25f4882f1a52dee91ed0ca87073ad0c2adcba0fb5f6849f116f94
-    .claude/skills/hybridflow/references/operations.md: sha256:7ac22a249e7ffff9d0f3b3f56bc63d8bceecffbda37eabcaf8640dafbcea267f
-    .claude/skills/hybridflow/references/operations/lifecycle.md: sha256:e09f8b2da43ee8ce0f4c473ff950c85129291eacde8c65e493e41bcc9ca18ff7
+    .claude/skills/hybridflow/references/operations.md: sha256:1501f37496b4c16d4b5834134b92ac6702f35a775534785285fe5ffe97eb01a1
+    .claude/skills/hybridflow/references/operations/lifecycle.md: sha256:0bebc313115fa67421dc18f5c2ae649639048f695d2d12956623c4032c64c5b7
     .claude/skills/hybridflow/references/operations/observation.md: sha256:18b1a53f0c375c4736dfc82da20009fd1dd925a9f0655b5945da78ef5fb2fe72
-    .claude/skills/hybridflow/references/reuse/copying.md: sha256:4297ccfeb2c0d1e321bfc58fdeda090d121645cbb0db86246822bdf6eed80426
-    .claude/skills/hybridflow/references/reuse/templates.md: sha256:ab906f8ed22dd710322b4d522e777c0cef29c177696fc404a3862796b3359bf8
-    .claude/skills/hybridflow/references/reuse/workflows.md: sha256:fc86917a4cc17698d7cc159135cbde36f254f7114eef31e6641d9f28bb90d843
-    .claude/skills/hybridflow/references/structured-data.md: sha256:7a130fcf8b4484827bc27a0e8aa736f70a0e3636ad4bcce1f2024edffda202c0
-  content_hash: sha256:bebb2b7f7695fe4089ca0d4228dc1b49be61a90f8244fee56d0dd9e77edb91cb
+    .claude/skills/hybridflow/references/reuse/copying.md: sha256:3a8c273096a91753f8c39d7749fac4fce7e5ca560f2bdf1464b2262588ebcf6c
+    .claude/skills/hybridflow/references/reuse/templates.md: sha256:288bf446922ab008904742442502dbc9ea450b366dfb308d0812cac7589305f2
+    .claude/skills/hybridflow/references/reuse/workflows.md: sha256:7c658044d875ece3a3c3c1654a4aef1c637f4e96da244446e2b2bd6a99250984
+    .claude/skills/hybridflow/references/structured-data.md: sha256:5efe9359d2011ebdf1a977bac60dc64bee83cbc68578aef7f9b1ed852c587b2f
+  content_hash: sha256:6e2d91cae2daabf1a8b3f84efd3ab62f2a1c3d1bab77c1a2d134dc320b8887e6
 - repo_url: kiao-lp/skill-kiao-adr
   alias: kiao-adr
   name: kiao-adr
@@ -246,27 +246,31 @@ dependencies:
   alias: markdown-passage-link
   name: markdown-passage-link
   host: github.com
-  resolved_commit: 18e21c82b5c0230bcf2e41c6534f6c76b3e1a2b9
-  resolved_ref: v1.0.1
-  version: 1.0.1
+  resolved_commit: f8ec01d91c9ce38c3029cc892ad185e6c63c1d54
+  resolved_ref: v1.0.2
+  version: 1.0.2
   package_type: hybrid
   deployed_files:
   - .agents/skills/markdown-passage-link
   - .agents/skills/markdown-passage-link/.gitignore
   - .agents/skills/markdown-passage-link/SKILL.md
   - .agents/skills/markdown-passage-link/apm.yml
+  - .agents/skills/markdown-passage-link/kiao.lock.json
   - .claude/skills/markdown-passage-link
   - .claude/skills/markdown-passage-link/.gitignore
   - .claude/skills/markdown-passage-link/SKILL.md
   - .claude/skills/markdown-passage-link/apm.yml
+  - .claude/skills/markdown-passage-link/kiao.lock.json
   deployed_file_hashes:
     .agents/skills/markdown-passage-link/.gitignore: sha256:7cca993605bfa4475dc4679755307ef2d079105f64954c091a1a23746e936528
-    .agents/skills/markdown-passage-link/SKILL.md: sha256:6fb63aace68354d6bc49202cd6b65242e6f5adbe8ed4a18ba06f6d78ad866ce1
-    .agents/skills/markdown-passage-link/apm.yml: sha256:6d71e1c119f07c33bd828133e94f6a2065e0093cfa3e69932ff95afaa6a15df4
+    .agents/skills/markdown-passage-link/SKILL.md: sha256:9781a8953c01d0b3eea2aeb8678a6997c5f7c345243f9f6edcc2ae3d66bec30e
+    .agents/skills/markdown-passage-link/apm.yml: sha256:ec9f2bc338266b0408a32c5035471f9c61bfd986f979f74d42652b40ac29c756
+    .agents/skills/markdown-passage-link/kiao.lock.json: sha256:3544ceb6d9770ba4a72e429a8a73eec3313c482365c4b8c35784f3709e4a0571
     .claude/skills/markdown-passage-link/.gitignore: sha256:7cca993605bfa4475dc4679755307ef2d079105f64954c091a1a23746e936528
-    .claude/skills/markdown-passage-link/SKILL.md: sha256:6fb63aace68354d6bc49202cd6b65242e6f5adbe8ed4a18ba06f6d78ad866ce1
-    .claude/skills/markdown-passage-link/apm.yml: sha256:6d71e1c119f07c33bd828133e94f6a2065e0093cfa3e69932ff95afaa6a15df4
-  content_hash: sha256:96b32e85826e71a4cb68453952306f73822fb220fb01adf495eed7243441f819
+    .claude/skills/markdown-passage-link/SKILL.md: sha256:9781a8953c01d0b3eea2aeb8678a6997c5f7c345243f9f6edcc2ae3d66bec30e
+    .claude/skills/markdown-passage-link/apm.yml: sha256:ec9f2bc338266b0408a32c5035471f9c61bfd986f979f74d42652b40ac29c756
+    .claude/skills/markdown-passage-link/kiao.lock.json: sha256:3544ceb6d9770ba4a72e429a8a73eec3313c482365c4b8c35784f3709e4a0571
+  content_hash: sha256:e888f2965b21e7e95153f92357d35caa36649a4b2706220b8bed3e7a59b74018
 deployments:
 - kind: project-relative
   target: claude
@@ -276,7 +280,7 @@ deployments:
   owners:
   - .
   active_owner: .
-  content_hash: sha256:7815b62f2f9038ca110a40254c20816e25bf6109976fd3083251f597edc2fc49
+  content_hash: sha256:8af92972b216c8c2d9d9a4d53b87725a2d0985f0234f6c9834dc6a0d155d95ca
 - kind: project-relative
   target: claude
   value: .claude/rules/documentation-presentation.md
@@ -357,7 +361,7 @@ deployments:
   owners:
   - kiao-lp/skill-hybridflow
   active_owner: kiao-lp/skill-hybridflow
-  content_hash: sha256:b63be9d6b9754617623c0282b26642ff567a3855a55001218f72253c9bb62f8e
+  content_hash: sha256:edacfc5ee8d266acaedf6667d89cb7c97e560fd88bf782ce7eb79d02ec5b3371
 - kind: project-relative
   target: claude
   value: .claude/skills/hybridflow/apm.yml
@@ -366,7 +370,16 @@ deployments:
   owners:
   - kiao-lp/skill-hybridflow
   active_owner: kiao-lp/skill-hybridflow
-  content_hash: sha256:5bb0e3fffd941e54655189d6a2c0e0e6690cdf226e27518ca12d7431ca5db111
+  content_hash: sha256:90af023e38a92fb2da074279b0a705b324b9b490380458327383adc33e0c7788
+- kind: project-relative
+  target: claude
+  value: .claude/skills/hybridflow/kiao.lock.json
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-hybridflow
+  active_owner: kiao-lp/skill-hybridflow
+  content_hash: sha256:3544ceb6d9770ba4a72e429a8a73eec3313c482365c4b8c35784f3709e4a0571
 - kind: project-relative
   target: claude
   value: .claude/skills/hybridflow/references/api-curl.md
@@ -375,7 +388,7 @@ deployments:
   owners:
   - kiao-lp/skill-hybridflow
   active_owner: kiao-lp/skill-hybridflow
-  content_hash: sha256:865e29c888e9b0057640fb4e11e11435194a64c18c9283ac33ebb02081241ee8
+  content_hash: sha256:1ed0f7a3c49c10268533b63eb4c191f2197cd6283f0243371f9c4c92e303b781
 - kind: project-relative
   target: claude
   value: .claude/skills/hybridflow/references/cards.md
@@ -384,7 +397,7 @@ deployments:
   owners:
   - kiao-lp/skill-hybridflow
   active_owner: kiao-lp/skill-hybridflow
-  content_hash: sha256:78a0ee8785b22864fbe2b7cee7b4c4e862007bd7dd5af056e7a7282e2426fe05
+  content_hash: sha256:ab2e9e87abaff65596bca5914ebc22b0f1702835acf46f128f3ccf32956a04ca
 - kind: project-relative
   target: claude
   value: .claude/skills/hybridflow/references/chains.md
@@ -393,16 +406,7 @@ deployments:
   owners:
   - kiao-lp/skill-hybridflow
   active_owner: kiao-lp/skill-hybridflow
-  content_hash: sha256:e7beafce5b5c06431af38f5fc22709a646478d79f4dbb545872308d159bfc206
-- kind: project-relative
-  target: claude
-  value: .claude/skills/hybridflow/references/classes.md
-  runtime: null
-  scope: project
-  owners:
-  - kiao-lp/skill-hybridflow
-  active_owner: kiao-lp/skill-hybridflow
-  content_hash: sha256:8c0748aacd337c63aa98fe0f5b95b441d463d0f3a1e10e8bc8868bcf6790bcbf
+  content_hash: sha256:363941edf4189907b3de21aa89365c3dd836e1cd55fdcd5b6a65cf0d9a8c805e
 - kind: project-relative
   target: claude
   value: .claude/skills/hybridflow/references/execution/agents.md
@@ -411,7 +415,7 @@ deployments:
   owners:
   - kiao-lp/skill-hybridflow
   active_owner: kiao-lp/skill-hybridflow
-  content_hash: sha256:f888aec5da9076889d90556f47e9a19d8f7d198ff3d783c404904f7781564523
+  content_hash: sha256:3a24ea424e0766e3e520f8ac5e8e5de82114d085d88dc549111aac15ef75ba44
 - kind: project-relative
   target: claude
   value: .claude/skills/hybridflow/references/execution/runners.md
@@ -429,7 +433,7 @@ deployments:
   owners:
   - kiao-lp/skill-hybridflow
   active_owner: kiao-lp/skill-hybridflow
-  content_hash: sha256:7ac22a249e7ffff9d0f3b3f56bc63d8bceecffbda37eabcaf8640dafbcea267f
+  content_hash: sha256:1501f37496b4c16d4b5834134b92ac6702f35a775534785285fe5ffe97eb01a1
 - kind: project-relative
   target: claude
   value: .claude/skills/hybridflow/references/operations/lifecycle.md
@@ -438,7 +442,7 @@ deployments:
   owners:
   - kiao-lp/skill-hybridflow
   active_owner: kiao-lp/skill-hybridflow
-  content_hash: sha256:e09f8b2da43ee8ce0f4c473ff950c85129291eacde8c65e493e41bcc9ca18ff7
+  content_hash: sha256:0bebc313115fa67421dc18f5c2ae649639048f695d2d12956623c4032c64c5b7
 - kind: project-relative
   target: claude
   value: .claude/skills/hybridflow/references/operations/observation.md
@@ -456,7 +460,7 @@ deployments:
   owners:
   - kiao-lp/skill-hybridflow
   active_owner: kiao-lp/skill-hybridflow
-  content_hash: sha256:4297ccfeb2c0d1e321bfc58fdeda090d121645cbb0db86246822bdf6eed80426
+  content_hash: sha256:3a8c273096a91753f8c39d7749fac4fce7e5ca560f2bdf1464b2262588ebcf6c
 - kind: project-relative
   target: claude
   value: .claude/skills/hybridflow/references/reuse/templates.md
@@ -465,7 +469,7 @@ deployments:
   owners:
   - kiao-lp/skill-hybridflow
   active_owner: kiao-lp/skill-hybridflow
-  content_hash: sha256:ab906f8ed22dd710322b4d522e777c0cef29c177696fc404a3862796b3359bf8
+  content_hash: sha256:288bf446922ab008904742442502dbc9ea450b366dfb308d0812cac7589305f2
 - kind: project-relative
   target: claude
   value: .claude/skills/hybridflow/references/reuse/workflows.md
@@ -474,7 +478,7 @@ deployments:
   owners:
   - kiao-lp/skill-hybridflow
   active_owner: kiao-lp/skill-hybridflow
-  content_hash: sha256:fc86917a4cc17698d7cc159135cbde36f254f7114eef31e6641d9f28bb90d843
+  content_hash: sha256:7c658044d875ece3a3c3c1654a4aef1c637f4e96da244446e2b2bd6a99250984
 - kind: project-relative
   target: claude
   value: .claude/skills/hybridflow/references/structured-data.md
@@ -483,7 +487,7 @@ deployments:
   owners:
   - kiao-lp/skill-hybridflow
   active_owner: kiao-lp/skill-hybridflow
-  content_hash: sha256:7a130fcf8b4484827bc27a0e8aa736f70a0e3636ad4bcce1f2024edffda202c0
+  content_hash: sha256:5efe9359d2011ebdf1a977bac60dc64bee83cbc68578aef7f9b1ed852c587b2f
 - kind: project-relative
   target: claude
   value: .claude/skills/kiao-adr
@@ -636,7 +640,7 @@ deployments:
   owners:
   - kiao-lp/skill-markdown-passage-link
   active_owner: kiao-lp/skill-markdown-passage-link
-  content_hash: sha256:6fb63aace68354d6bc49202cd6b65242e6f5adbe8ed4a18ba06f6d78ad866ce1
+  content_hash: sha256:9781a8953c01d0b3eea2aeb8678a6997c5f7c345243f9f6edcc2ae3d66bec30e
 - kind: project-relative
   target: claude
   value: .claude/skills/markdown-passage-link/apm.yml
@@ -645,7 +649,16 @@ deployments:
   owners:
   - kiao-lp/skill-markdown-passage-link
   active_owner: kiao-lp/skill-markdown-passage-link
-  content_hash: sha256:6d71e1c119f07c33bd828133e94f6a2065e0093cfa3e69932ff95afaa6a15df4
+  content_hash: sha256:ec9f2bc338266b0408a32c5035471f9c61bfd986f979f74d42652b40ac29c756
+- kind: project-relative
+  target: claude
+  value: .claude/skills/markdown-passage-link/kiao.lock.json
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-markdown-passage-link
+  active_owner: kiao-lp/skill-markdown-passage-link
+  content_hash: sha256:3544ceb6d9770ba4a72e429a8a73eec3313c482365c4b8c35784f3709e4a0571
 - kind: project-relative
   target: claude
   value: .claude/skills/repository-documentation-guidance
@@ -726,7 +739,7 @@ deployments:
   owners:
   - kiao-lp/skill-hybridflow
   active_owner: kiao-lp/skill-hybridflow
-  content_hash: sha256:b63be9d6b9754617623c0282b26642ff567a3855a55001218f72253c9bb62f8e
+  content_hash: sha256:edacfc5ee8d266acaedf6667d89cb7c97e560fd88bf782ce7eb79d02ec5b3371
 - kind: project-relative
   target: codex
   value: .agents/skills/hybridflow/apm.yml
@@ -735,7 +748,16 @@ deployments:
   owners:
   - kiao-lp/skill-hybridflow
   active_owner: kiao-lp/skill-hybridflow
-  content_hash: sha256:5bb0e3fffd941e54655189d6a2c0e0e6690cdf226e27518ca12d7431ca5db111
+  content_hash: sha256:90af023e38a92fb2da074279b0a705b324b9b490380458327383adc33e0c7788
+- kind: project-relative
+  target: codex
+  value: .agents/skills/hybridflow/kiao.lock.json
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-hybridflow
+  active_owner: kiao-lp/skill-hybridflow
+  content_hash: sha256:3544ceb6d9770ba4a72e429a8a73eec3313c482365c4b8c35784f3709e4a0571
 - kind: project-relative
   target: codex
   value: .agents/skills/hybridflow/references/api-curl.md
@@ -744,7 +766,7 @@ deployments:
   owners:
   - kiao-lp/skill-hybridflow
   active_owner: kiao-lp/skill-hybridflow
-  content_hash: sha256:865e29c888e9b0057640fb4e11e11435194a64c18c9283ac33ebb02081241ee8
+  content_hash: sha256:1ed0f7a3c49c10268533b63eb4c191f2197cd6283f0243371f9c4c92e303b781
 - kind: project-relative
   target: codex
   value: .agents/skills/hybridflow/references/cards.md
@@ -753,7 +775,7 @@ deployments:
   owners:
   - kiao-lp/skill-hybridflow
   active_owner: kiao-lp/skill-hybridflow
-  content_hash: sha256:78a0ee8785b22864fbe2b7cee7b4c4e862007bd7dd5af056e7a7282e2426fe05
+  content_hash: sha256:ab2e9e87abaff65596bca5914ebc22b0f1702835acf46f128f3ccf32956a04ca
 - kind: project-relative
   target: codex
   value: .agents/skills/hybridflow/references/chains.md
@@ -762,16 +784,7 @@ deployments:
   owners:
   - kiao-lp/skill-hybridflow
   active_owner: kiao-lp/skill-hybridflow
-  content_hash: sha256:e7beafce5b5c06431af38f5fc22709a646478d79f4dbb545872308d159bfc206
-- kind: project-relative
-  target: codex
-  value: .agents/skills/hybridflow/references/classes.md
-  runtime: null
-  scope: project
-  owners:
-  - kiao-lp/skill-hybridflow
-  active_owner: kiao-lp/skill-hybridflow
-  content_hash: sha256:8c0748aacd337c63aa98fe0f5b95b441d463d0f3a1e10e8bc8868bcf6790bcbf
+  content_hash: sha256:363941edf4189907b3de21aa89365c3dd836e1cd55fdcd5b6a65cf0d9a8c805e
 - kind: project-relative
   target: codex
   value: .agents/skills/hybridflow/references/execution/agents.md
@@ -780,7 +793,7 @@ deployments:
   owners:
   - kiao-lp/skill-hybridflow
   active_owner: kiao-lp/skill-hybridflow
-  content_hash: sha256:f888aec5da9076889d90556f47e9a19d8f7d198ff3d783c404904f7781564523
+  content_hash: sha256:3a24ea424e0766e3e520f8ac5e8e5de82114d085d88dc549111aac15ef75ba44
 - kind: project-relative
   target: codex
   value: .agents/skills/hybridflow/references/execution/runners.md
@@ -798,7 +811,7 @@ deployments:
   owners:
   - kiao-lp/skill-hybridflow
   active_owner: kiao-lp/skill-hybridflow
-  content_hash: sha256:7ac22a249e7ffff9d0f3b3f56bc63d8bceecffbda37eabcaf8640dafbcea267f
+  content_hash: sha256:1501f37496b4c16d4b5834134b92ac6702f35a775534785285fe5ffe97eb01a1
 - kind: project-relative
   target: codex
   value: .agents/skills/hybridflow/references/operations/lifecycle.md
@@ -807,7 +820,7 @@ deployments:
   owners:
   - kiao-lp/skill-hybridflow
   active_owner: kiao-lp/skill-hybridflow
-  content_hash: sha256:e09f8b2da43ee8ce0f4c473ff950c85129291eacde8c65e493e41bcc9ca18ff7
+  content_hash: sha256:0bebc313115fa67421dc18f5c2ae649639048f695d2d12956623c4032c64c5b7
 - kind: project-relative
   target: codex
   value: .agents/skills/hybridflow/references/operations/observation.md
@@ -825,7 +838,7 @@ deployments:
   owners:
   - kiao-lp/skill-hybridflow
   active_owner: kiao-lp/skill-hybridflow
-  content_hash: sha256:4297ccfeb2c0d1e321bfc58fdeda090d121645cbb0db86246822bdf6eed80426
+  content_hash: sha256:3a8c273096a91753f8c39d7749fac4fce7e5ca560f2bdf1464b2262588ebcf6c
 - kind: project-relative
   target: codex
   value: .agents/skills/hybridflow/references/reuse/templates.md
@@ -834,7 +847,7 @@ deployments:
   owners:
   - kiao-lp/skill-hybridflow
   active_owner: kiao-lp/skill-hybridflow
-  content_hash: sha256:ab906f8ed22dd710322b4d522e777c0cef29c177696fc404a3862796b3359bf8
+  content_hash: sha256:288bf446922ab008904742442502dbc9ea450b366dfb308d0812cac7589305f2
 - kind: project-relative
   target: codex
   value: .agents/skills/hybridflow/references/reuse/workflows.md
@@ -843,7 +856,7 @@ deployments:
   owners:
   - kiao-lp/skill-hybridflow
   active_owner: kiao-lp/skill-hybridflow
-  content_hash: sha256:fc86917a4cc17698d7cc159135cbde36f254f7114eef31e6641d9f28bb90d843
+  content_hash: sha256:7c658044d875ece3a3c3c1654a4aef1c637f4e96da244446e2b2bd6a99250984
 - kind: project-relative
   target: codex
   value: .agents/skills/hybridflow/references/structured-data.md
@@ -852,7 +865,7 @@ deployments:
   owners:
   - kiao-lp/skill-hybridflow
   active_owner: kiao-lp/skill-hybridflow
-  content_hash: sha256:7a130fcf8b4484827bc27a0e8aa736f70a0e3636ad4bcce1f2024edffda202c0
+  content_hash: sha256:5efe9359d2011ebdf1a977bac60dc64bee83cbc68578aef7f9b1ed852c587b2f
 - kind: project-relative
   target: codex
   value: .agents/skills/kiao-adr
@@ -1005,7 +1018,7 @@ deployments:
   owners:
   - kiao-lp/skill-markdown-passage-link
   active_owner: kiao-lp/skill-markdown-passage-link
-  content_hash: sha256:6fb63aace68354d6bc49202cd6b65242e6f5adbe8ed4a18ba06f6d78ad866ce1
+  content_hash: sha256:9781a8953c01d0b3eea2aeb8678a6997c5f7c345243f9f6edcc2ae3d66bec30e
 - kind: project-relative
   target: codex
   value: .agents/skills/markdown-passage-link/apm.yml
@@ -1014,7 +1027,16 @@ deployments:
   owners:
   - kiao-lp/skill-markdown-passage-link
   active_owner: kiao-lp/skill-markdown-passage-link
-  content_hash: sha256:6d71e1c119f07c33bd828133e94f6a2065e0093cfa3e69932ff95afaa6a15df4
+  content_hash: sha256:ec9f2bc338266b0408a32c5035471f9c61bfd986f979f74d42652b40ac29c756
+- kind: project-relative
+  target: codex
+  value: .agents/skills/markdown-passage-link/kiao.lock.json
+  runtime: null
+  scope: project
+  owners:
+  - kiao-lp/skill-markdown-passage-link
+  active_owner: kiao-lp/skill-markdown-passage-link
+  content_hash: sha256:3544ceb6d9770ba4a72e429a8a73eec3313c482365c4b8c35784f3709e4a0571
 - kind: project-relative
   target: codex
   value: .agents/skills/repository-documentation-guidance
@@ -1204,5 +1226,5 @@ local_deployed_files:
 - .claude/agents/agent-repository-documentation-specialist.md
 - .codex/agents/agent-repository-documentation-specialist.toml
 local_deployed_file_hashes:
-  .claude/agents/agent-repository-documentation-specialist.md: sha256:7815b62f2f9038ca110a40254c20816e25bf6109976fd3083251f597edc2fc49
+  .claude/agents/agent-repository-documentation-specialist.md: sha256:8af92972b216c8c2d9d9a4d53b87725a2d0985f0234f6c9834dc6a0d155d95ca
   .codex/agents/agent-repository-documentation-specialist.toml: sha256:0e60b93e006925636311905ac261c871accb0b94d6e5e602076305c5e95cdeb3
